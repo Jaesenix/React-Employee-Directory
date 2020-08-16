@@ -1,14 +1,12 @@
 import React from 'react';
-import Header from "./components/Header";
-import EmployeeTable from "./components/EmployeeTable";
-import SearchResults from './components/SearchResults';
+import Header from "./components/Header.js";
+import EmployeeTable from "./components/EmployeeTable.js";
+import SearchResults from './components/SearchResults.js';
 
 function App() {
   return (
     <div className="App">
-      <Header />
         <EmployeeTable />
-            <SearchResults />
          
     </div>
   )
