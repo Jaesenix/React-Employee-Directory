@@ -1,28 +1,19 @@
-import React, { Component } from 'react';
-import Table from "./components/Table.js";
+import React from 'react';
+import Header from "./components/Header";
+import EmployeeTable from "./components/EmployeeTable";
+import Data from "./components/Data";
+import SearchResults from './components/SearchResults';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={Table} />
-        </Wrapper>
-        <Footer />
-      </div>
-    </Router>
-  );
-}
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Table />
-      </div>
-    )
-  }
+    <div className="App">
+      <Header />
+        <EmployeeTable />
+          <Data />
+            <SearchResults />
+         
+    </div>
+  )
 }
 
 export default App;
