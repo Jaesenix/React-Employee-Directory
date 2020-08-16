@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react';
-import EmployeeTable from "../EmployeeTable";
-import Header from "../Header";
-import API from "../../utils/API";
-import DataContext from "../../utils/DataContext"
+// import React, {useState, useEffect} from 'react';
+// import EmployeeTable from "../EmployeeTable";
+// import Header from "../Header";
+// import API from "../../utils/API";
+// import DataContext from "../../utils/DataContext"
 
 // const Data = () => {
 //       const [developerState, setDeveloperState] = useState({
@@ -29,49 +29,49 @@ import DataContext from "../../utils/DataContext"
 //             })
 //         }
     
-//         const compareFnc = (a, b) => {
-//           if (developerState.order === "ascend") {
-//             if (a[heading] === undefined) {
-//               return 1;
-//             } else if (b[heading] === undefined) {
-//               return -1;
-//             } else if (heading === "name") {
-//               return a[heading].first.localeCompare(b[heading].first);
-//             } else {
-//               return b[heading] - a[heading];
-//             } 
-//           } else {
-//         if (a[heading] === undefined){
-//             return 1;
-//         } else if (b[heading] === undefined){
-//             return -1;
-//         } else if (heading ==="name"){
-//             return b[heading].first.localeCompare(a[heading].first);
-//         } else {
-// return b[heading]-  a[heading];
-//         }
-//     }
-//     }
-//         const sortedUsers = developerState.filteredUsers.sort(compareFnc);
+// //         const compareFnc = (a, b) => {
+// //           if (developerState.order === "ascend") {
+// //             if (a[heading] === undefined) {
+// //               return 1;
+// //             } else if (b[heading] === undefined) {
+// //               return -1;
+// //             } else if (heading === "name") {
+// //               return a[heading].first.localeCompare(b[heading].first);
+// //             } else {
+// //               return b[heading] - a[heading];
+// //             } 
+// //           } else {
+// //         if (a[heading] === undefined){
+// //             return 1;
+// //         } else if (b[heading] === undefined){
+// //             return -1;
+// //         } else if (heading ==="name"){
+// //             return b[heading].first.localeCompare(a[heading].first);
+// //         } else {
+// // return b[heading]-  a[heading];
+// //         }
+// //     }
+// //     }
+// //         const sortedUsers = developerState.filteredUsers.sort(compareFnc);
 
-//         setDeveloperState({
-//           ...developerState,
-//           filteredUsers: sortedUsers
-// });
+// //         setDeveloperState({
+// //           ...developerState,
+// //           filteredUsers: sortedUsers
+// // });
 
-//  };
+// //  };
    
-//       const handleSearchChange = event => {
-//         const filter = event.target.value;
-//         const filteredList = developerState.users.filter(item => {
-//           let values = item.name.first.toLowerCase();
-//           return values.indexOf(filter.toLowerCase()) !== -1;
-//         });
+// //       const handleSearchChange = event => {
+// //         const filter = event.target.value;
+// //         const filteredList = developerState.users.filter(item => {
+// //           let values = item.name.first.toLowerCase();
+// //           return values.indexOf(filter.toLowerCase()) !== -1;
+// //         });
     
-//         setDeveloperState({ 
-//         ...developerState, 
-//         filteredUsers: filteredList });
-//       };
+// //         setDeveloperState({ 
+// //         ...developerState, 
+// //         filteredUsers: filteredList });
+// //       };
 
 //       useEffect(() => {
 //         API.getUsers().then(results => {
@@ -83,8 +83,10 @@ import DataContext from "../../utils/DataContext"
 //         });
 //       }, []);
     
-      return (
-        <EmployeeTable results={this.state.results} />
+//       return (
+//         <EmployeeTable results={this.state.results} />
+//       )
+//         console.log(this.state.results);
 
-      )
-    export default Data
+//       }
+//     export default Data
