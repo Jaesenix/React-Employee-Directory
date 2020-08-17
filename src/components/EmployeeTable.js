@@ -90,7 +90,7 @@ class EmployeeTable extends Component {
                                         age={employee.dob.age}
                                     />
 
-                                ))};
+                                ))}
 
                 </tbody>
                     </table>
