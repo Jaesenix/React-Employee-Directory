@@ -3,11 +3,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
+import "./style.css";
 
 // react bootstrap search
 const Header = (props) => {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar className="Header" bg="dark" variant="dark">
         <Navbar.Brand href="#home">Employee Directory</Navbar.Brand>
     
         <Form inline>

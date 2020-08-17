@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Header.js";
 import SearchResults from './SearchResults.js';
+import "./style.css";
 
 class EmployeeTable extends Component {
 
@@ -12,7 +13,7 @@ class EmployeeTable extends Component {
     };
 
     componentDidMount = () => {
-        fetch("https://randomuser.me/api/?results=10&nat=us")
+        fetch("https://randomuser.me/api/?results=200&nat=us")
             .then(res => res.json())
             .then(json => {
                 this.setState({ employees: json.results })
@@ -58,6 +59,7 @@ class EmployeeTable extends Component {
                                 <th>Cell Number</th>
                                 <th>Age</th>
                             </tr>
+                            <tr className="border_bottom"></tr>
                         </thead>
                         <tbody>
 
