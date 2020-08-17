@@ -24,6 +24,6 @@ SO THAT I have quick access to their information
 
 ## Deployed Application
 
-(link)
+[Employee Directory](https://jaesenix.github.io/React-Employee-Directory/)
 
 (screenshots)
