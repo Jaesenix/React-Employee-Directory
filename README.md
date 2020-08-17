@@ -26,4 +26,4 @@ SO THAT I have quick access to their information
 
 [Employee Directory](https://jaesenix.github.io/React-Employee-Directory/)
 
-(screenshots)
+![](./public/EmployeeDirectory.gif)
